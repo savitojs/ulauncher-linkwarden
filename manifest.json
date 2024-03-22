@@ -1,0 +1,33 @@
+{
+  "required_api_version": "2",
+  "name": "Linkwarden extension",
+  "description": "Ulauncher extension for Linkwarden bookmark service ",
+  "developer_name": "Savitoj Singh",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "linkwarden_kw",
+      "type": "keyword",
+      "name": "Linkwarden Keyword",
+      "description": "Keyword to invoke Linkwarden",
+      "default_value": "lw"
+    },
+    {
+      "id": "api_url",
+      "type": "text",
+      "name": "Linkwarden API URL",
+      "description": "Enter the API URL of your Linkwarden instance, Example: https://linkwarden.homelab.com/api/v1/links",
+      "default_value": ""
+    },
+    {
+      "id": "api_token",
+      "type": "text",
+      "name": "Linkwarden API Secret",
+      "description": "Enter the API Secret found under Profile > Access Token > New Access Token",
+      "default_value": ""
+    }
+  ]
+}
