@@ -59,7 +59,7 @@ After configuring the extension, you can use it to search your Linkwarden bookma
 
 ## Demo
 
-TODO
+<img aligh="center" src="demo.gif">
 
 
 Feel free to send pull requests or report issues or reach out to the Linkwarden support team if you encounter any issues or have any questions regarding the usage or configuration of this extension.
